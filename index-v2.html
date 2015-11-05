@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="Author" content="xuedesign" />
+<link rel="shortcut icon"  href="http://www.xuedesign.tw/images/favicon.ico"/>
+<link rel="icon" href="http://www.xuedesign.tw/images/favicon.ico"/>
+<link rel="apple-touch-icon" href="http://www.xuedesign.tw/images/icon@2x.png">
+<title>【設計提案】 鴻裕金食堂食品包裝 V2</title>
+<link href="http://www.xuedesign.tw/css/reset.css" rel="stylesheet">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"/>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"/>
+<style>
+#wrap{ display:block; width:1240px; margin:5px auto 80px}
+h1{ display:block; 
+    font-size:1.5em; 
+	line-height:50px; 
+	margin-bottom:15px; 
+	text-align:center; 
+	border-bottom:1px solid #999; 
+	letter-spacing:1px}
+#box_layout{ display:block; width:620px}
+h2{ font-size:1em; line-height:50px}
+.box-img{ display:block; width:570px; margin:0 auto}
+.note{ font-size:0.813em; line-height:15px; text-align:right; /*letter-spacing:1px*/}
+.pure-g{ margin:0 auto}
+
+/*1024桌機適用*/
+@media screen and (min-width:960px) and (max-width:1251px){
+ #wrap{ width:90%}
+ #box_layout{ width:45%; margin:0 15px}
+}
+
+/*768平板畫面*/
+@media screen and (min-width:768px) and (max-width:959px){
+ #wrap{ width:90%}
+ #box_layout{ width:100%; margin-bottom:25px}
+}
+
+/*小平板與手機之間*/
+@media screen and (min-width:481px) and (max-width: 767px) {
+ #wrap{ width:90%}
+ #box_layout{ width:100%; margin-bottom:25px}
+}
+
+/*480手機畫面*/
+@media screen and (max-width:480px){
+ #wrap{ width:90%}
+ #box_layout{ width:100%; margin-bottom:25px}
+}
+</style>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<!--<![endif]-->
+<!--[if IE 7]>
+	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="wrap">
+    <h1>【鴻裕金食堂食品包裝提案 V2】</h1>
+    <p class="note">*畫面灰色部分為透明效果。</p>
+    <section class="pure-g">
+          <div id="box_layout" class="pure-u-1 pure-u-lg-1-2">
+             <h2># 包裝正面</h2>
+             <img src="images/cover-v2.jpg" alt="*" class="pure-img">
+          </div>
+          <div id="box_layout" class="pure-u-1 pure-u-lg-1-2">
+             <h2># 包裝背面</h2>
+             <img src="images/back-v2.jpg" alt="*" class="pure-img">
+          </div>
+    </section>
+</div>
+</body>
+</html>
